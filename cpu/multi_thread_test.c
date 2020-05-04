@@ -54,3 +54,11 @@ int main()
     printf("After Thread\n");
     exit(0);                                                                                                                                                                                                
 }
+
+
+/*** doc ****/
+/* myThreadFun: exhaust 100% cpu time */
+/* myThreadFun2: exhause about 2/3 cpu time*/
+/* 10 second passed, myThreadFun2 exit*/
+/* myThreadFun take all cpu time*/
+/***********/
